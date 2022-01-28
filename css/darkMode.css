@@ -1,0 +1,25 @@
+body {
+	/*COLOR MODE TRANSITION*/
+	--color-mode-transition: background 0.25s var(--ease-in-out-quad),
+		color 0.25s var(--ease-in-out-quad);
+
+	/*DARK - PRIMARY COLORS*/
+	--primary: #fff;
+	--secondary: #f2f0f0;
+	--grey: #73737d;
+	--background-color: #111216;
+	--accent: #c5438f;
+	--hover: rgba(255, 255, 255, 0.07);
+	--gradient: linear-gradient(180deg, #111216 0%, rgba(36, 23, 28, 0.316) 100%);
+	--articleText: #f3f3f3;
+	--track: rgba(255, 255, 255, 0.3);
+	--progress: #fff;
+	--card: #434343;
+	--error: #ee565b;
+	--success: #46b17b;
+	--errorBackground: rgba(238, 86, 91, 0.1);
+	--horizontalRule: rgba(255, 255, 255, 0.15);
+	--inputBackground: rgba(255, 255, 255, 0.07);
+	--tooltip: rgb(0, 0, 0);
+	--article-card: rgb(26, 26, 26);
+}
